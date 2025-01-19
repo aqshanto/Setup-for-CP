@@ -1,19 +1,24 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 #define int long long
 #define endl "\n"
-double pi= 3.141592653589793238462643383279;
+#define printarr(v)                    \
+    for (int i = 0; i < v.size(); i++) \
+        cout << v[i] << " ";           \
+    cout << endl;
 
-void solve(){
-    
+//---------------------------------------//
+
+void solve() {
 }
 
-signed main(){
+signed main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    int t=1;
+    int t = 1, Case = 1;
     // cin>>t;
-    while(t--){
+    while (t--) {
+        // cout << "Case " << Case++ << ": ";
         solve();
     }
     return 0;
